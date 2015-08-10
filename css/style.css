@@ -1,0 +1,172 @@
+
+/* Fonts */
+.font-bangers {
+    font-family: 'Bangers', cursive;
+    text-decoration:none;
+    text-shadow: 1px 1px 0px #FFFF66,
+                -1px 1px 0px #FFFF66,
+                 1px -1px 0px #FFFF66,
+                -1px -1px 0px #FFFF66,
+                 0px 2px 0px #990000,
+                -1px 3px 0px #990000,
+                -2px 4px 0px #990000,
+                -2px 0px 0px #990000,
+                -3px 1px 0px #990000,
+                -4px 2px 0px #990000,
+                -5px 3px 0px #990000,
+                -6px 4px 0px #990000,
+                -7px 5px 0px #990000;
+    font-size: 36px;
+    color: #FF0000;
+}
+
+.font-bangers:hover {
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+}
+
+.font-bangers:active {
+    font-size: 42px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+
+.button {
+    position: absolute;
+    top: 210px;
+}
+
+.prev {
+    left: 20px;
+    display: none;
+}
+
+.next {
+    right: 20px;
+}
+
+/* Issue */
+
+#issue {
+    height: 455px;
+    width: 744px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #000;
+    position: relative;
+}
+
+/* Container */
+
+#container {
+    height: 430px;
+    width: 722px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    top: 10px;
+}
+
+/* Page */
+
+.page {
+  width: 722px;
+  height: 1024px;
+  position: absolute;
+  display: none;
+}
+
+.page-active {
+    display: block;
+}
+
+/* Pages */
+
+.cover {
+    background-image: url('../img/x-comic_cover-722x1024.jpg');
+}
+
+.page-1 {
+    background-image: url('../img/x-comic_page1-722x1024.jpg');
+}
+
+.page-2 {
+    background-image: url('../img/x-comic_page2-722x1024.jpg');
+}
+
+.page-3 {
+    background-image: url('../img/x-comic_page3-722x1024.jpg');
+}
+
+.page-4 {
+    background-image: url('../img/x-comic_page4-722x1024.jpg');
+}
+
+.page-5 {
+    background-image: url('../img/x-comic_page5-722x1024.jpg');
+}
+
+.page-6 {
+    background-image: url('../img/x-comic_page6-722x1024.jpg');
+}
+
+.page-7 {
+    background-image: url('../img/x-comic_page7-722x1024.jpg');
+}
+
+.page-8 {
+    background-image: url('../img/x-comic_page8-722x1024.jpg');
+}
+
+.page-9 {
+    background-image: url('../img/x-comic_page9-722x1024.jpg');
+}
+
+.page-10 {
+    background-image: url('../img/x-comic_page10-722x1024.jpg');
+}
+
+.page-11 {
+    background-image: url('../img/x-comic_page11-722x1024.jpg');
+}
+
+.page-12 {
+    background-image: url('../img/x-comic_page12-722x1024.jpg');
+}
+
+.page-13 {
+    background-image: url('../img/x-comic_page13-722x1024.jpg');
+}
+
+.page-14 {
+    background-image: url('../img/x-comic_page14-722x1024.jpg');
+}
+
+.page-15 {
+    background-image: url('../img/x-comic_page15-722x1024.jpg');
+}
+
+.page-16 {
+    background-image: url('../img/x-comic_page16-722x1024.jpg');
+}
+
+.page-17 {
+    background-image: url('../img/x-comic_page17-722x1024.jpg');
+}
+
+.page-18 {
+    background-image: url('../img/x-comic_page18-722x1024.jpg');
+}
+
+.page-19 {
+    background-image: url('../img/x-comic_page19-722x1024.jpg');
+}
+
+.page-20 {
+    background-image: url('../img/x-comic_page20-722x1024.jpg');
+}
