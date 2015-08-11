@@ -12,6 +12,10 @@ $( document ).ready(function() {
         nextFrame = $(frame).next();
         duration = 500;
 
+        if ($(page).hasClass('page-20')) {
+            duration = 3000;
+        }
+
         if (prevFrame.length <= 0 && prevPage.length > 0) {
             $(page).removeClass('page-active');
             $(prevPage).addClass('page-active');
@@ -72,6 +76,10 @@ $( document ).ready(function() {
         prevFrame = $(frame).prev();
         duration = 500;
 
+        if ($(page).hasClass('page-20')) {
+            duration = 3000;
+        }
+
         if (nextFrame.length <= 0 && nextPage.length > 0) {
             $(page).removeClass('page-active');
             $(nextPage).addClass('page-active');
@@ -116,6 +124,15 @@ $( document ).ready(function() {
 
         if (prevFrame.length > 0) {
             $('.prev').show();
+        }
+
+    });
+
+    $("body").keydown(function(e) {
+        if(e.which == 37) {
+            $(".prev").trigger("click");
+        } else if(e.which == 39) {
+            $(".next").trigger("click");
         }
     });
 

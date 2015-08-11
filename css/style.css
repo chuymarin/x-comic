@@ -1,3 +1,6 @@
+body {
+    background-color: #000;
+}
 
 /* Fonts */
 .font-bangers {
@@ -23,6 +26,8 @@
 .issue-header, .issue-footer {
     width: 744px;
     margin: 0 auto;
+    font-family: "Open Sans";
+    color: #eff0f2;
 }
 
 p.title {
@@ -31,6 +36,7 @@ p.title {
 
 p.byline {
     font-size: 14px;
+    color: #eff0f2;
 }
 
 p.byline a {
@@ -78,6 +84,9 @@ p.byline a {
     background-color: #000;
     position: relative;
     margin: 0 auto;
+    border: 10px solid #eff0f2;
+    box-sizing: content-box;
+    border-radius: 3px;
 }
 
 /* Container */
@@ -188,4 +197,35 @@ p.byline a {
 
 .page-20 {
     background-image: url('../img/x-comic_page20-722x1024.jpg');
+}
+
+.key{
+    display: inline-block;
+    color: #aaa;
+    font: bold 9pt arial;
+    text-decoration: none;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    padding-top: 20px;
+    background: #eff0f2;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-top: 1px solid #f5f5f5;
+    -webkit-box-shadow: 
+        inset 0 0 25px #e8e8e8,
+        0 1px 0 #c3c3c3,
+        0 2px 0 #c9c9c9,
+        0 2px 3px #333;
+    -moz-box-shadow: 
+        inset 0 0 25px #e8e8e8,
+        0 1px 0 #c3c3c3,
+        0 2px 0 #c9c9c9,
+        0 2px 3px #333;
+    box-shadow: 
+        inset 0 0 25px #e8e8e8,
+        0 1px 0 #c3c3c3,
+        0 2px 0 #c9c9c9,
+        0 2px 3px #333;
+    text-shadow: 0px 1px 0px #f5f5f5;
 }
