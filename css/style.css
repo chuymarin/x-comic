@@ -20,13 +20,22 @@
     color: #FF0000;
 }
 
-.issue-header {
+.issue-header, .issue-footer {
     width: 744px;
     margin: 0 auto;
 }
 
 p.title {
     font-size: 48px;
+}
+
+p.byline {
+    font-size: 14px;
+}
+
+p.byline a {
+    text-decoration:none;
+    color: #990000;
 }
 
 .prev:hover, .next:hover {
